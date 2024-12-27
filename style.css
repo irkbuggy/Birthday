@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+}
+
+
+.backgroundVideo{
+    width: 100%;
+    /* height: 750px; */
+    /* overflow: hidden; */
+}
+.backgroundVideo video{
+    
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        z-index: -1;
+     
+}
+.message{
+    z-index: 10;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.message h1{
+    color: transparent;
+    margin-bottom: 2%;
+    font-size: 6rem;
+    -webkit-text-stroke: 2px rgb(255, 200, 117);
+    opacity: 1;
+    margin-bottom: 5px;
+    font-family: cursive;
+}
+.message h1 span{
+    -webkit-text-stroke: 2px rgb(255, 200, 117);
+}
+.message h2{
+    color: transparent;
+    margin-bottom: 2%;
+    font-size: 3rem;
+    -webkit-text-stroke: 2px rgb(255, 200, 117);
+    opacity: 1;
+    font-family: cursive;
+
+}
+.glow {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #e60073, 0 0 40px #e60073, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+    }
+  }
+
+  .glow2 {
+    font-size: 80px;
+    color: #fff;
+    text-align: center;
+    animation: glow 1s ease-in-out infinite alternate;
+  }
+  
+  @-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 1px #fff, 0 0 2px #fefbf7, 0 0 3px #fdf8f1, 0 0 4px #fcf5eb, 0 0 5px #fbf0e1, 0 0 6px #fbeedd, 0 0 7px #faebd7;
+     }
+     
+     to {
+       text-shadow: 0 0 6px #fff, 0 0 7px #fefbf7, 0 0 8px #fdf8f1, 0 0 9px #fcf5eb, 0 0 10px #fbf0e1, 0 0 11px #fbeedd, 0 0 12px #faebd7;
+     }
+  }
